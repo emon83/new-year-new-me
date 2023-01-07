@@ -126,9 +126,11 @@ background: rgba(241, 91, 34, 0.2); */
   width: 1440px;
 }
 .plan-header {
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 40px;
   line-height: 47px;
+  text-align: center;
+  margin-left: 180px;
 }
 .box-container {
   width: 1440px;

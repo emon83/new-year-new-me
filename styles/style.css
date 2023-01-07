@@ -54,7 +54,7 @@ background: rgba(241, 91, 34, 0.2); */
 .failures-list {
   margin: 370px 200px 215px 0px;
 }
-.failures-titel {
+.failures-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
@@ -83,25 +83,65 @@ background: rgba(241, 91, 34, 0.2); */
   size: 70px;
 }
 
-/* plan section */
-.plan-header {
+/*  About me*/
+.about-container {
+  display: flex;
+  gap: 24px;
 }
+.about-image {
+  margin: 130px 87px 130px 190px;
+  width: 569px;
+  height: 623.3px;
+}
+.about-content {
+  margin: 125px 200px 215px 0px;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+}
+.about-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5e5a5a;
+  margin-top: 24px;
+}
+.about-content ul {
+  margin-top: 25px;
+}
+.about-content ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5e5a5a;
+  margin-top: 10px;
+}
+
+/* plan section */
+
 .plan-container {
   text-align: center;
+  width: 1440px;
 }
 .plan-header {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
 }
+.box-container {
+  width: 1440px;
+  text-align: center;
+}
 .plan-text {
   display: flex;
-  margin: 0px 230px;
+  margin-left: 210px;
   gap: 40px;
   margin-top: 60px;
 }
 .plan-box {
-  width: 214px;
+  width: 290px;
   height: 197px;
 }
 
@@ -112,7 +152,7 @@ background: rgba(241, 91, 34, 0.2); */
 .plan-box .plan-title {
   margin-top: 24px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 35px;
   text-align: center;
 }
@@ -122,7 +162,6 @@ background: rgba(241, 91, 34, 0.2); */
   font-size: 20px;
   line-height: 29px;
   text-align: center;
-
   color: #737272;
 }
 
@@ -154,56 +193,87 @@ background: rgba(241, 91, 34, 0.2); */
   margin-top: 16px;
   margin-left: 64px;
   border: none;
+  border-radius: 5px;
 }
 /* footer */
 .footer {
-  display: flex;
-  width: 1600px;
+  padding-right: 120px;
+  width: 1400px;
   height: 577px;
   background: #151414;
+  padding-bottom: 20px;
+}
+.footer-container {
+  display: flex;
+  gap: 330px;
+}
+.footer-text {
+  margin-left: 250px;
+  margin-top: 100px;
 }
 .footer-text .footer-title {
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
-
   color: #f8f8f8;
 }
 .footer-text .footer-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-
+  margin-top: 24px;
+  margin-bottom: 26px;
   color: #ffffff;
+}
+.footer-text .footer-email {
+  margin-bottom: 16px;
+}
+.footer-text .footer-phone {
+  margin-bottom: 32px;
 }
 .footer-text .footer-email {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-
   color: #ffffff;
 }
 .footer-text .footer-phone {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-
   color: #ffffff;
 }
 .footer-text .footer-icon {
+  display: flex;
+  width: 47px;
+  height: 46px;
+  gap: 17px;
+  margin-bottom: 130px;
 }
 .footer-input {
+  margin-top: 130px;
 }
 .footer .footer-input .input-text {
   font-weight: 600;
   font-size: 25px;
   line-height: 29px;
-
+  margin-bottom: 31px;
   color: #ffffff;
+}
+.input-container {
+  display: flex;
 }
 .footer .footer-input input {
   width: 325px;
-  height: 144px;
+  height: 60px;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  background: #151414;
+  border-color: #f8f8f8;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 20px;
 }
 .footer .footer-input button {
   font-weight: 600;
@@ -213,6 +283,6 @@ background: rgba(241, 91, 34, 0.2); */
   padding: 20px 36px;
   color: #f15b22;
   margin-top: 16px;
-
+  border-radius: 5px;
   border: none;
 }
